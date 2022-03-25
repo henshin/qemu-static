@@ -11,4 +11,5 @@ RUN "/work/src/${QEMU_SRC_BASENAME}/configure" \
     --disable-system \
     --disable-werror \
     --enable-linux-user \
+    --enable-tools \
     --static
